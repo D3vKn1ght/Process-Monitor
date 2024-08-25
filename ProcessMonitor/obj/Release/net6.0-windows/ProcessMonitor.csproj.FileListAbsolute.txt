@@ -1,0 +1,16 @@
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\obj\Release\net6.0-windows\ProcessMonitor.Form1.resources
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\obj\Release\net6.0-windows\ProcessMonitor.csproj.GenerateResource.cache
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\obj\Release\net6.0-windows\ProcessMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\obj\Release\net6.0-windows\ProcessMonitor.AssemblyInfoInputs.cache
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\obj\Release\net6.0-windows\ProcessMonitor.AssemblyInfo.cs
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\obj\Release\net6.0-windows\ProcessMonitor.csproj.CoreCompileInputs.cache
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\bin\Release\net6.0-windows\ProcessMonitor.exe
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\bin\Release\net6.0-windows\ProcessMonitor.deps.json
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\bin\Release\net6.0-windows\ProcessMonitor.runtimeconfig.json
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\bin\Release\net6.0-windows\ProcessMonitor.dll
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\bin\Release\net6.0-windows\ProcessMonitor.pdb
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\obj\Release\net6.0-windows\ProcessMonitor.dll
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\obj\Release\net6.0-windows\refint\ProcessMonitor.dll
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\obj\Release\net6.0-windows\ProcessMonitor.pdb
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\obj\Release\net6.0-windows\ProcessMonitor.genruntimeconfig.cache
+C:\Users\TRUNG\Desktop\ProcessMonitor\ProcessMonitor\obj\Release\net6.0-windows\ref\ProcessMonitor.dll
