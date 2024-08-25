@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProcessMonitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+993ef5a9836bbdcbee9c8e37c6b7bf83935306ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProcessMonitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProcessMonitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

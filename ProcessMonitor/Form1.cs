@@ -10,6 +10,10 @@ namespace ProcessMonitor
     {
         private Dictionary<int, ProcessInfo> monitoredProcesses;
         private HashSet<int> initialPids;
+        private System.Windows.Forms.Timer elapsedTimeTimer;
+        private System.Windows.Forms.Timer updateTimer; // Track update timer for start/stop functionality
+        private DateTime startTime;
+        private bool isMonitoring;
 
         public Form1()
         {
@@ -17,15 +21,52 @@ namespace ProcessMonitor
             monitoredProcesses = new Dictionary<int, ProcessInfo>();
             initialPids = new HashSet<int>(Process.GetProcesses().Select(p => p.Id));
 
-            var timer = new System.Windows.Forms.Timer { Interval = 2000 };
-            timer.Tick += Timer_Tick;
-            timer.Start();
+            updateTimer = new System.Windows.Forms.Timer { Interval = 2000 };
+            updateTimer.Tick += Timer_Tick;
+
+            startTime = DateTime.Now;
+            elapsedTimeTimer = new System.Windows.Forms.Timer { Interval = 1000 };
+            elapsedTimeTimer.Tick += ElapsedTimeTimer_Tick;
+            elapsedTimeTimer.Start();
+
+            isMonitoring = false; // Initialize as not monitoring
         }
 
         private void Timer_Tick(object? sender, EventArgs e)
         {
-            UpdateProcesses();
-            DisplayProcesses();
+            if (isMonitoring)
+            {
+                UpdateProcesses();
+                DisplayProcesses();
+            }
+        }
+
+        private void ElapsedTimeTimer_Tick(object? sender, EventArgs e)
+        {
+            if (isMonitoring)
+            {
+                var elapsedSeconds = (DateTime.Now - startTime).TotalSeconds;
+                labelElapsedTime.Text = $"Elapsed Time: {elapsedSeconds:F0}s";
+            }
+        }
+
+        private void buttonStartStop_Click(object sender, EventArgs e)
+        {
+            if (isMonitoring)
+            {
+                // Stop monitoring
+                isMonitoring = false;
+                updateTimer.Stop();
+                buttonStartStop.Text = "Start";
+            }
+            else
+            {
+                // Start monitoring
+                isMonitoring = true;
+                startTime = DateTime.Now; // Reset start time
+                updateTimer.Start();
+                buttonStartStop.Text = "Stop";
+            }
         }
 
         private void UpdateProcesses()
@@ -73,7 +114,7 @@ namespace ProcessMonitor
             }
         }
 
-        private bool ProcessExists(int pid)
+        private static bool ProcessExists(int pid)
         {
             return Process.GetProcesses().Any(p => p.Id == pid);
         }

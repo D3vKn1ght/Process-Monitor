@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TRUNG\\Desktop\\ProcessMonitor\\ProcessMonitor\\ProcessMonitor.csproj",
+      "projectUniqueName": "C:\\Users\\TRUNG\\Desktop\\Process-Monitor\\ProcessMonitor\\ProcessMonitor.csproj",
       "projectName": "ProcessMonitor",
-      "projectPath": "C:\\Users\\TRUNG\\Desktop\\ProcessMonitor\\ProcessMonitor\\ProcessMonitor.csproj",
+      "projectPath": "C:\\Users\\TRUNG\\Desktop\\Process-Monitor\\ProcessMonitor\\ProcessMonitor.csproj",
       "packagesPath": "C:\\Users\\TRUNG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TRUNG\\Desktop\\ProcessMonitor\\ProcessMonitor\\obj\\",
+      "outputPath": "C:\\Users\\TRUNG\\Desktop\\Process-Monitor\\ProcessMonitor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
